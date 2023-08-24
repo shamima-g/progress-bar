@@ -15,33 +15,25 @@ https://github.com/stadium-software/progress-bar/assets/2085324/111b1d76-1987-40
 ## Application Setup
 1. Check the *Enable Style Sheet* checkbox in the application properties
 
-## Static Page Setup
-1. Drag a *Flexbox* control to a page and name it "ProgressBarContainer"
-2. Add a class called "progress-bar-container" to the "ProgressBarContainer" control *Classes* property 
-
 ### Creating a step
-1. Drag a *Flexbox* control into the "ProgressBarContainer" control and name it "ProgressBarItemContainer"
-2. Add a class called "progress-bar-item-container" to the "ProgressBarItemContainer" control *Classes* property 
-3. Drag a *Container* control into the "ProgressBarItemContainer" control and name it "ProgressBarStepIcon"
-4. Add a class called "progress-bar-step-icon" to the "ProgressBarItemContainer" control *Classes* property 
-5. Drag a *Label* control into the "ProgressBarStepIcon" control and name it "ProgressBarStepIconLabel"
-6. Optional: Add the step number into the *Text* property of the "ProgressBarStepIconLabel" control. This number will display on steps in the *ToDo* state
-7.  Drag a *Label* control into the "ProgressBarItemContainer" and place it next to the "ProgressBarStepIcon" control, then name it "ProgressBarStepLabel"
-8. Add a class called "progress-bar-step-label" to the "ProgressBarStepLabel" control *Classes* property 
-9. Add a description for this step into the *Text* property of the "ProgressBarStepLabel" control
 
-When you have added one step into your "ProgressBarContainer" control, it should look like this<br>
+We are going to create one step that should look like this<br>
 ![StadiumDesigner_8seIX8j0xH](https://github.com/stadium-software/progress-bar/assets/2085324/d73af593-e096-4eb0-b2ea-9cec0ba84a12)
-<br>Place as many steps as you need underneath each other
+
+Drag and drop the following list of controls and set their properties accordingly.
 
 ### Static Controls Map
-| | Control | Location | Name | class | Text |
+| | Control | Location | Name | Class | Text |
 | --- | --- | --- | --- |--- |---
 | 1. | Flexbox | page | ProgressBarContainer| progress-bar-container | |
 | 2. | Flexbox | ProgressBarContainer | ProgressBarItemContainer| progress-bar-item-container | |
 | 3. | Container | ProgressBarItemContainer | ProgressBarStepIcon| progress-bar-step-icon | |
 | 4. | Label | ProgressBarStepIcon | ProgressBarStepIconLabel|  | Step description |
 | 5. | Label | Next to "ProgressBarStepIcon" | ProgressBarStepLabel| progress-bar-step-label | Step number |
+
+<br>Copy and paste ProgressBarItemContainer underneath each other in ProgressBarContainer to add as many steps as you need 
+
+---
 
 ## Dynamic Page Setup
 1. Drag a *Flexbox* control to a page and name it "ProgressBarContainer"
