@@ -1,8 +1,8 @@
 # Vertical Progress Bar
 
 
-[sabz](https://github.com/name/project/releases/download/v1.0.0/book.epub)
-
+[sabz](../Releases/download/ProgressBarSample.sapz)
+[sabz](../Releases/download/ProgressBarSample.sapz)
 ## Description
 A sample application that contains a vertical progress bar to show workflow steps in 'done', 'current' or 'todo' states. The sample contains a static implementation as well as one that is generated on page load from data provided in a list. The look and feel is customisable using the variables provided in the *progress-bar-variables.css* file. 
 
